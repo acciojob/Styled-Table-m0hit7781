@@ -1,1 +1,17 @@
 /* your code */
+table{
+	width: 80%;
+	border-collapse: collapse;
+}
+th, td{
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+}
+#main{
+	background: lightblue;
+}
+
+tr:nth-child(even){
+	background: lightcyan;
+}
